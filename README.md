@@ -12,7 +12,7 @@ psql postgres
 \du | List all roles
 \list | List databases
 
- CREATE ROLE me WITH LOGIN PASSWORD 'password';
+ CREATE ROLE me WITH LOGIN PASSWORD <password>;
  ALTER ROLE me CREATEDB;
 
  \q
